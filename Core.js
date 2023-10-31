@@ -7009,7 +7009,7 @@ Hello, I am "Hunter Bot" a WhatsApp bot.
   ┬│▸
   ╰────────────···▸`
         let buttonMessage = {
-          video: fs.readFileSync('./Assets/MainGif.gif'), gifPlayback: true,
+          video: fs.readFileSync('./Assets/MainGif.mp4'), gifPlayback: true,
           caption: helpmenu,
 
           headerType: 4
