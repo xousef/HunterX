@@ -1992,7 +1992,7 @@ Typed *surrender* to surrender and admited defeat`
           const responseData1 = await response1.json();
 
           let message = "";
-          let message = "";
+       
 
           if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.data) {
             message = responseData1.data;
