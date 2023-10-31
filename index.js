@@ -192,14 +192,14 @@ async function startA17() {
             let buttonMessage = {
               image: await getBuffer(ppgroup),
               mentions: [num],
-              caption: HunterBot text,
+              caption: HunterBottext,
               footer: `${global.BotName}`,
               headerType: 4,
             }
             A17.sendMessage(anu.id, buttonMessage)
           } else if (anu.action == 'remove') {
             let WAuserName = num
-             HunterBot text = `
+             HunterBottext = `
   Okay Bye 👋, @${WAuserName.split("@")[0]},
   
   I hope you will come back soon, but You will be missed!
@@ -208,7 +208,7 @@ async function startA17() {
             let buttonMessage = {
               image: await getBuffer(ppuser),
               mentions: [num],
-              caption: HunterBot text ,
+              caption: HunterBottext ,
               footer: `${global.BotName}`,
               headerType: 4,
   
@@ -255,7 +255,7 @@ async function startA17() {
           if (anu.action == 'add') {
             // ... existing logic for welcoming new participants ...
             let WAuserName = num
-            HunterBot text = `
+            HunterBottext = `
 Hello @${WAuserName.split("@")[0]},
 
 I am *Hunter X Bot*, Welcome to ${metadata.subject}.
