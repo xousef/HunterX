@@ -6796,7 +6796,7 @@ _Click the button below to download_`
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "✨", key: m.key } })
-        const helpmenu = `Hemlo *${pushname}* Dear...!! ${nowtime} ,
+        const helpmenu = `Hello *${pushname}* Dear...!! ${nowtime} ,
   
 Hello, I am "Hunter Bot" a WhatsApp bot.
 
