@@ -267,7 +267,7 @@ ${metadata.desc}
             let buttonMessage = {
               image: await getBuffer(ppgroup),
               mentions: [num],
-              caption: HunterBot text,
+              caption: HunterBottext,
               footer: `${global.BotName}`,
               headerType: 4,
             }
@@ -284,7 +284,7 @@ You'll be a noticeable absence!
             let buttonMessage = {
               image: await getBuffer(ppuser),
               mentions: [num],
-              caption: HunterBot text,
+              caption: HunterBottext,
               footer: `${global.BotName}`,
               headerType: 4,
 
