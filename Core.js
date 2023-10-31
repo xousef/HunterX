@@ -6818,7 +6818,7 @@ Hello, I am "Hunter Bot" a WhatsApp bot.
   〢━━━ 〄 Core 〄 ━━━〢
 
 
-  ⌯     $ السلام عليكم
+  ⌯     $ salam
   ⌯     ${prefix}speak
   ⌯     ${prefix}stalk
   ⌯     ${prefix}setprefix
